@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-05T15:49:18 IST" name="Suite" finished-at="2025-12-05T15:51:06 IST" duration-ms="108410">
+    <groups>
+      <group name="smoke">
+        <method signature="TC_01.loginToApp()[pri:0, instance:atlascoreHRM_smoke.TC_01@6c40365c]" name="loginToApp" class="atlascoreHRM_smoke.TC_01"/>
+        <method signature="TC_07.verifyEmployeeMenu()[pri:0, instance:atlascoreHRM_smoke.TC_07@3d34d211]" name="verifyEmployeeMenu" class="atlascoreHRM_smoke.TC_07"/>
+        <method signature="TC_05.verifyEmployeeMenu()[pri:0, instance:atlascoreHRM_smoke.TC_05@5aebe890]" name="verifyEmployeeMenu" class="atlascoreHRM_smoke.TC_05"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-12-05T15:49:18 IST" name="Test2" finished-at="2025-12-05T15:49:34 IST" duration-ms="16301">
+      <class name="atlascoreHRM_smoke.TC_01">
+        <test-method is-config="true" signature="openBrowse()[pri:0, instance:atlascoreHRM_smoke.TC_01@6c40365c]" started-at="2025-12-05T15:49:18 IST" name="openBrowse" finished-at="2025-12-05T15:49:20 IST" duration-ms="2048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowse -->
+        <test-method signature="loginToApp()[pri:0, instance:atlascoreHRM_smoke.TC_01@6c40365c]" started-at="2025-12-05T15:49:20 IST" name="loginToApp" finished-at="2025-12-05T15:49:32 IST" duration-ms="12313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:atlascoreHRM_smoke.TC_01@6c40365c]" started-at="2025-12-05T15:49:20 IST" name="login" finished-at="2025-12-05T15:49:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:atlascoreHRM_smoke.TC_01@6c40365c]" started-at="2025-12-05T15:49:32 IST" name="logout" finished-at="2025-12-05T15:49:34 IST" duration-ms="1691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:atlascoreHRM_smoke.TC_01@6c40365c]" started-at="2025-12-05T15:49:34 IST" name="closeBrowser" finished-at="2025-12-05T15:49:34 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- atlascoreHRM_smoke.TC_01 -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-12-05T15:49:34 IST" name="Test4" finished-at="2025-12-05T15:49:43 IST" duration-ms="8899">
+      <class name="atlascoreHRM_smoke.TC_07">
+        <test-method is-config="true" signature="openBrowse()[pri:0, instance:atlascoreHRM_smoke.TC_07@3d34d211]" started-at="2025-12-05T15:49:34 IST" name="openBrowse" finished-at="2025-12-05T15:49:36 IST" duration-ms="1966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowse -->
+        <test-method signature="verifyEmployeeMenu()[pri:0, instance:atlascoreHRM_smoke.TC_07@3d34d211]" started-at="2025-12-05T15:49:36 IST" name="verifyEmployeeMenu" finished-at="2025-12-05T15:49:42 IST" duration-ms="5951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeMenu -->
+        <test-method is-config="true" signature="login()[pri:0, instance:atlascoreHRM_smoke.TC_07@3d34d211]" started-at="2025-12-05T15:49:36 IST" name="login" finished-at="2025-12-05T15:49:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:atlascoreHRM_smoke.TC_07@3d34d211]" started-at="2025-12-05T15:49:42 IST" name="logout" finished-at="2025-12-05T15:49:43 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:atlascoreHRM_smoke.TC_07@3d34d211]" started-at="2025-12-05T15:49:43 IST" name="closeBrowser" finished-at="2025-12-05T15:49:43 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- atlascoreHRM_smoke.TC_07 -->
+    </test> <!-- Test4 -->
+    <test started-at="2025-12-05T15:49:18 IST" name="Test1" finished-at="2025-12-05T15:49:54 IST" duration-ms="35948">
+      <class name="atlascoreHRM_integration.TC_INT_03">
+        <test-method is-config="true" signature="openBrowse()[pri:0, instance:atlascoreHRM_integration.TC_INT_03@3b69e7d1]" started-at="2025-12-05T15:49:18 IST" name="openBrowse" finished-at="2025-12-05T15:49:20 IST" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowse -->
+        <test-method is-config="true" signature="login()[pri:0, instance:atlascoreHRM_integration.TC_INT_03@3b69e7d1]" started-at="2025-12-05T15:49:20 IST" name="login" finished-at="2025-12-05T15:49:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="AttendanceRequest()[pri:0, instance:atlascoreHRM_integration.TC_INT_03@3b69e7d1]" started-at="2025-12-05T15:49:20 IST" name="AttendanceRequest" finished-at="2025-12-05T15:49:53 IST" duration-ms="33081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AttendanceRequest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:atlascoreHRM_integration.TC_INT_03@3b69e7d1]" started-at="2025-12-05T15:49:53 IST" name="logout" finished-at="2025-12-05T15:49:54 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:atlascoreHRM_integration.TC_INT_03@3b69e7d1]" started-at="2025-12-05T15:49:54 IST" name="closeBrowser" finished-at="2025-12-05T15:49:54 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- atlascoreHRM_integration.TC_INT_03 -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-12-05T15:49:18 IST" name="Test3" finished-at="2025-12-05T15:49:57 IST" duration-ms="38732">
+      <class name="atlascoreHRM_integration.TC_INT_01">
+        <test-method is-config="true" signature="openBrowse()[pri:0, instance:atlascoreHRM_integration.TC_INT_01@20d525]" started-at="2025-12-05T15:49:18 IST" name="openBrowse" finished-at="2025-12-05T15:49:20 IST" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowse -->
+        <test-method is-config="true" signature="login()[pri:0, instance:atlascoreHRM_integration.TC_INT_01@20d525]" started-at="2025-12-05T15:49:20 IST" name="login" finished-at="2025-12-05T15:49:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="leaveRequest()[pri:0, instance:atlascoreHRM_integration.TC_INT_01@20d525]" started-at="2025-12-05T15:49:20 IST" name="leaveRequest" finished-at="2025-12-05T15:49:56 IST" duration-ms="35777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveRequest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:atlascoreHRM_integration.TC_INT_01@20d525]" started-at="2025-12-05T15:49:56 IST" name="logout" finished-at="2025-12-05T15:49:57 IST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:atlascoreHRM_integration.TC_INT_01@20d525]" started-at="2025-12-05T15:49:57 IST" name="closeBrowser" finished-at="2025-12-05T15:49:57 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- atlascoreHRM_integration.TC_INT_01 -->
+    </test> <!-- Test3 -->
+    <test started-at="2025-12-05T15:49:43 IST" name="Test5" finished-at="2025-12-05T15:50:38 IST" duration-ms="54701">
+      <class name="atlascoreHRM_system.TC_SYS_02">
+        <test-method is-config="true" signature="openBrowse()[pri:0, instance:atlascoreHRM_system.TC_SYS_02@2de23121]" started-at="2025-12-05T15:49:43 IST" name="openBrowse" finished-at="2025-12-05T15:49:47 IST" duration-ms="3736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowse -->
+        <test-method signature="ApplyAndApproveLeaveRequest()[pri:0, instance:atlascoreHRM_system.TC_SYS_02@2de23121]" started-at="2025-12-05T15:49:47 IST" name="ApplyAndApproveLeaveRequest" finished-at="2025-12-05T15:50:37 IST" duration-ms="49953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyAndApproveLeaveRequest -->
+        <test-method is-config="true" signature="login()[pri:0, instance:atlascoreHRM_system.TC_SYS_02@2de23121]" started-at="2025-12-05T15:49:47 IST" name="login" finished-at="2025-12-05T15:49:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:atlascoreHRM_system.TC_SYS_02@2de23121]" started-at="2025-12-05T15:50:37 IST" name="logout" finished-at="2025-12-05T15:50:38 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:atlascoreHRM_system.TC_SYS_02@2de23121]" started-at="2025-12-05T15:50:38 IST" name="closeBrowser" finished-at="2025-12-05T15:50:38 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- atlascoreHRM_system.TC_SYS_02 -->
+    </test> <!-- Test5 -->
+    <test started-at="2025-12-05T15:49:54 IST" name="Test6" finished-at="2025-12-05T15:50:41 IST" duration-ms="46766">
+      <class name="atlascoreHRM_system.TC_SYS_04">
+        <test-method is-config="true" signature="openBrowse()[pri:0, instance:atlascoreHRM_system.TC_SYS_04@66d18979]" started-at="2025-12-05T15:49:54 IST" name="openBrowse" finished-at="2025-12-05T15:49:56 IST" duration-ms="1658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowse -->
+        <test-method is-config="true" signature="login()[pri:0, instance:atlascoreHRM_system.TC_SYS_04@66d18979]" started-at="2025-12-05T15:49:56 IST" name="login" finished-at="2025-12-05T15:49:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="ApplyAndApproveAttendanceRequest()[pri:0, instance:atlascoreHRM_system.TC_SYS_04@66d18979]" started-at="2025-12-05T15:49:56 IST" name="ApplyAndApproveAttendanceRequest" finished-at="2025-12-05T15:50:40 IST" duration-ms="44288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyAndApproveAttendanceRequest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:atlascoreHRM_system.TC_SYS_04@66d18979]" started-at="2025-12-05T15:50:40 IST" name="logout" finished-at="2025-12-05T15:50:41 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:atlascoreHRM_system.TC_SYS_04@66d18979]" started-at="2025-12-05T15:50:41 IST" name="closeBrowser" finished-at="2025-12-05T15:50:41 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- atlascoreHRM_system.TC_SYS_04 -->
+    </test> <!-- Test6 -->
+    <test started-at="2025-12-05T15:50:41 IST" name="Test9" finished-at="2025-12-05T15:50:51 IST" duration-ms="10532">
+      <class name="atlascoreHRM_smoke.TC_05">
+        <test-method is-config="true" signature="reportConfig()[pri:0, instance:atlascoreHRM_smoke.TC_05@5aebe890]" started-at="2025-12-05T15:49:18 IST" name="reportConfig" finished-at="2025-12-05T15:49:18 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportConfig -->
+        <test-method is-config="true" signature="openBrowse()[pri:0, instance:atlascoreHRM_smoke.TC_05@5aebe890]" started-at="2025-12-05T15:50:41 IST" name="openBrowse" finished-at="2025-12-05T15:50:43 IST" duration-ms="2240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowse -->
+        <test-method signature="verifyEmployeeMenu()[pri:0, instance:atlascoreHRM_smoke.TC_05@5aebe890]" started-at="2025-12-05T15:50:43 IST" name="verifyEmployeeMenu" finished-at="2025-12-05T15:50:51 IST" duration-ms="7498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeMenu -->
+        <test-method is-config="true" signature="login()[pri:0, instance:atlascoreHRM_smoke.TC_05@5aebe890]" started-at="2025-12-05T15:50:43 IST" name="login" finished-at="2025-12-05T15:50:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:atlascoreHRM_smoke.TC_05@5aebe890]" started-at="2025-12-05T15:50:51 IST" name="logout" finished-at="2025-12-05T15:50:51 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:atlascoreHRM_smoke.TC_05@5aebe890]" started-at="2025-12-05T15:50:51 IST" name="closeBrowser" finished-at="2025-12-05T15:50:51 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="reporBackup()[pri:0, instance:atlascoreHRM_smoke.TC_05@5aebe890]" started-at="2025-12-05T15:51:06 IST" name="reporBackup" finished-at="2025-12-05T15:51:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporBackup -->
+      </class> <!-- atlascoreHRM_smoke.TC_05 -->
+    </test> <!-- Test9 -->
+    <test started-at="2025-12-05T15:49:57 IST" name="Test7" finished-at="2025-12-05T15:51:04 IST" duration-ms="67512">
+      <class name="atlascoreHRM_system.TC_SYS_10">
+        <test-method is-config="true" signature="openBrowse()[pri:0, instance:atlascoreHRM_system.TC_SYS_10@158a8276]" started-at="2025-12-05T15:49:57 IST" name="openBrowse" finished-at="2025-12-05T15:49:58 IST" duration-ms="1660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowse -->
+        <test-method signature="createMeetingAndUpdateMOM()[pri:0, instance:atlascoreHRM_system.TC_SYS_10@158a8276]" started-at="2025-12-05T15:49:58 IST" name="createMeetingAndUpdateMOM" finished-at="2025-12-05T15:51:03 IST" duration-ms="65044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMeetingAndUpdateMOM -->
+        <test-method is-config="true" signature="login()[pri:0, instance:atlascoreHRM_system.TC_SYS_10@158a8276]" started-at="2025-12-05T15:49:58 IST" name="login" finished-at="2025-12-05T15:49:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:atlascoreHRM_system.TC_SYS_10@158a8276]" started-at="2025-12-05T15:51:03 IST" name="logout" finished-at="2025-12-05T15:51:04 IST" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:atlascoreHRM_system.TC_SYS_10@158a8276]" started-at="2025-12-05T15:51:04 IST" name="closeBrowser" finished-at="2025-12-05T15:51:04 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- atlascoreHRM_system.TC_SYS_10 -->
+    </test> <!-- Test7 -->
+    <test started-at="2025-12-05T15:50:38 IST" name="Test8" finished-at="2025-12-05T15:51:06 IST" duration-ms="28473">
+      <class name="atlascoreHRM_integration.TC_INT_09">
+        <test-method is-config="true" signature="openBrowse()[pri:0, instance:atlascoreHRM_integration.TC_INT_09@7530ad9c]" started-at="2025-12-05T15:50:38 IST" name="openBrowse" finished-at="2025-12-05T15:50:40 IST" duration-ms="1698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowse -->
+        <test-method signature="scheduleMeeting()[pri:0, instance:atlascoreHRM_integration.TC_INT_09@7530ad9c]" started-at="2025-12-05T15:50:40 IST" name="scheduleMeeting" finished-at="2025-12-05T15:51:06 IST" duration-ms="26149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleMeeting -->
+        <test-method is-config="true" signature="login()[pri:0, instance:atlascoreHRM_integration.TC_INT_09@7530ad9c]" started-at="2025-12-05T15:50:40 IST" name="login" finished-at="2025-12-05T15:50:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:atlascoreHRM_integration.TC_INT_09@7530ad9c]" started-at="2025-12-05T15:51:06 IST" name="logout" finished-at="2025-12-05T15:51:06 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:atlascoreHRM_integration.TC_INT_09@7530ad9c]" started-at="2025-12-05T15:51:06 IST" name="closeBrowser" finished-at="2025-12-05T15:51:06 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- atlascoreHRM_integration.TC_INT_09 -->
+    </test> <!-- Test8 -->
+  </suite> <!-- Suite -->
+</testng-results>
