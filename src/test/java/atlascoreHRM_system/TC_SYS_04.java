@@ -18,7 +18,7 @@ import objectrepository.HRMLoginPage;
 
 public class TC_SYS_04 extends BaseClass {
 	@Test
-	public void ApplyAndApproveAttendanceRequest() throws IOException {
+	public void applyAndApproveAttendanceRequest() throws IOException {
 		HRMLoginPage lp = new HRMLoginPage(wd);
 		HRMHomePage hp = new HRMHomePage(wd);
 		// Create object for Attendance Page

@@ -13,14 +13,14 @@ import genericutility.BaseClass;
 import genericutility.ObjectUtility;
 import objectrepository.HRMHomePage;
 import objectrepository.HRMLoginPage;
-import objectrepository.HRMMeeingsPage;
+import objectrepository.HRMMeetingsPage;
 
 public class TC_INT_09 extends BaseClass{
 	@Test
 	public void scheduleMeeting() throws IOException {
 		HRMLoginPage lp=new HRMLoginPage(wd);
 		HRMHomePage hp=new HRMHomePage(wd);
-		HRMMeeingsPage mp=new HRMMeeingsPage(wd);
+		HRMMeetingsPage mp=new HRMMeetingsPage(wd);
 		
 		
         // Login as HR

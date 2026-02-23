@@ -18,7 +18,7 @@ import objectrepository.HRMMyLeaveRequestPage;
 
 public class TC_SYS_02 extends BaseClass {
 	@Test
-	public void ApplyAndApproveLeaveRequest() throws IOException {
+	public void applyAndApproveLeaveRequest() throws IOException {
 		HRMLoginPage lp = new HRMLoginPage(wd);
 		HRMHomePage hp = new HRMHomePage(wd);
 		HRMMyLeaveRequestPage mlrp = new HRMMyLeaveRequestPage(wd);

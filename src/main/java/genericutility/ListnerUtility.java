@@ -83,6 +83,4 @@ public class ListnerUtility implements ITestListener, ISuiteListener {
 	public void onFinish(ISuite suite) {
 		report.flush();
 	}
-	
-
 }

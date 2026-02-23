@@ -220,7 +220,7 @@ public class WebdriverUtility {
 		String timestamp = LocalDateTime.now().toString().replace(":", "-");
 		TakesScreenshot ts=(TakesScreenshot) wd;
 		File temp = ts.getScreenshotAs(OutputType.FILE);
-		File dest=new File("./screenshots/"+timestamp+filename+".png");
+		File dest=new File("./screenshots/"+timestamp+"-"+filename+".png");
 		FileHandler.copy(temp, dest);
 	}
 	//java script executor

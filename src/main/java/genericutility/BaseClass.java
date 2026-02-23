@@ -79,6 +79,6 @@ public class BaseClass {
 	@AfterSuite(alwaysRun = true)
 	public void reporBackup() {
 		//ereport.flush();
-		System.out.println("report backup done");
+		//System.out.println("report backup done");
 	}
 }

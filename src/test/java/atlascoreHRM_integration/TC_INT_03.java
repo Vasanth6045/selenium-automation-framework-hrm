@@ -16,7 +16,7 @@ import objectrepository.HRMLoginPage;
 
 public class TC_INT_03 extends BaseClass{
 	@Test
-	public void AttendanceRequest() throws IOException {
+	public void attendanceRequest() throws IOException {
 		// Create object for Login Page
 		HRMLoginPage lp=new HRMLoginPage(wd);
 		// Create object for Home Page
